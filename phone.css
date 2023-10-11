@@ -1,0 +1,255 @@
+ 
+ *{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+ #navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logo img{
+    height:35px;
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 20px;
+
+    /* border: 2px rgb(197, 43, 43) solid; */
+    image-resolution: 100px 100px;
+
+}
+#navbar ul li a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    margin-left:3vw;
+    padding: 3px 2px;
+    font-size: 1.5rem;
+}
+
+#home{
+    height:370px;
+    width: 100vw;
+    color:white;
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+     
+
+}
+#home::before{
+    content:"";
+    height:450px;
+    width: 100vw;
+    color:white;
+    position: absolute;
+    background:url(fooddeleveryweb/foodbg4.jpg) no-repeat center center;
+    z-index:-9;
+    background-size:100vw 100vh ;
+    opacity: .95;
+    top:0px;
+    left:0px;
+  
+
+}
+.primary{
+    font-size:2.5rem; 
+    padding:12px;
+    text-align: center;
+  }
+  #home p{
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+  }
+  .btn{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 14px 11px;
+    font-size: 1.8rem ;
+    cursor: pointer;
+    margin-top:49px;
+}
+ /*         services           */
+.services-contianer{
+    
+    display: flex;
+     flex-wrap: wrap;
+    align-items: center;
+     justify-content: space-evenly;
+     flex-direction:column;
+     margin-top: -15px;
+    
+
+}
+.services-contianer .box{
+    border: 2px rgb(94, 83, 61) solid;
+    background-color: rgb(219, 211, 201);
+   height:450px;
+   width:340px;
+   text-align: center; 
+  
+   margin: 25px 5px;
+   padding: 25px;
+   border-radius:28px ;
+}
+.services-contianer .box img{
+    display: block;
+     margin: auto;
+    
+    height:100px;
+    z-index: -100;
+    border: 2px white solid;
+    border-radius: 50px;
+   
+    
+}
+ .services-section h1{
+    text-align: center;
+    font-size:3.0rem; 
+   
+  }
+  .services-section h2{
+    text-align: center;
+    font-size:2.5rem; 
+    padding:12px;
+  }
+  .services-section p{
+    
+    font-size:1.5rem;
+    text-align: center;
+    font-family:Arial ;
+    /* margin: 10px; */
+ 
+  }
+ 
+
+   .client-item img{ 
+ 
+    height: 100px;
+    width: 170px;
+   
+  }
+  #client-section h1{
+    
+    text-align: center;
+    font-size:3.8rem; 
+     position: relative;
+    
+     top:70px;
+  }
+  #client{
+    position: relative;
+    margin-top:70px;
+    width:  100vw;
+    height: 260px;
+   
+     display: flex;
+    flex-wrap:wrap;
+ 
+    justify-content:space-evenly;
+
+   
+  }
+
+  #client-section::before{
+    content:" ";
+    width: 100vw;
+    height: 350px;
+    position: absolute;
+   
+     z-index: -100;
+     background-size:100vw 400px;
+     opacity: .7;
+     margin-top:50px;
+     margin-left:0px;
+  }
+  .client-item{ 
+ 
+    height:1px;
+    width:150px;
+    margin:0px 0px;
+    padding:0;
+     
+     
+  }
+  #client-section{
+    width: 100vw;
+    height: 350px;
+    font-size:2.8rem; 
+    position: relative;
+    top:-40px;
+  }
+   /*      contact section     */
+   #contact{
+    
+    height: 450px;
+    width: 100vw;
+    color: white;
+  
+    
+   
+    }
+  #contact::before{
+    content:" ";
+    height:457px;
+    width: 100vw;
+    color:white;
+    position: absolute; 
+    background:url(fooddeleveryweb/contact-us-2993000_1920.jpg) no-repeat;
+    z-index:-100;
+    background-size:100vw 447px;
+    opacity: .59;
+  }
+  #contact h1{
+    color:black;
+     text-align: center;
+    font-size:3.5rem; 
+    line-height: 0px;
+    padding:34px;
+
+  }
+  #contact-box{
+    
+    margin-bottom: 20px;
+    height: 300px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+    
+  } 
+  #contact form{
+    color: black;
+     font-size: 1.1rem;
+    width:300px;
+  }
+  #contact input{
+    
+    padding: 8px;
+    width: 100%;
+    margin-bottom:2px;
+    border-radius: 10px;
+}
+  #contact textarea{
+    height:100px;
+    width: 100%; 
+    border-radius: 10px;
+    padding: .5rem;
+   }
+   footer{
+     
+    background-color: black;
+    padding: 5px 2px ;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+  }
+   
