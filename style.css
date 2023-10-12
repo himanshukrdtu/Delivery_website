@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
@@ -21,7 +21,7 @@
     width: 100%;
     position: absolute;
     /* background-color: black; */
-    z-index:-1;
+    z-index:10;
     
 }
 
@@ -29,8 +29,8 @@
 /*        Navbar  Logo       */
  
 #logo img{
-    height:25px;
-    width: 25px;
+    height:45px;
+    width: 65px;
     margin-top: 5px;
     margin-left: 20px;
 
@@ -40,6 +40,7 @@
 } 
 /*        Navbar List      */
 #navbar ul{
+  margin-top: 10px;
     display:flex;
     
 }
@@ -53,11 +54,13 @@
      text-decoration: none;
      display: block;
      padding: 3px 22px;
+     font-size:1.3rem;
 }
 #navbar ul li a:hover{
      color: rgb(14, 1, 1);
      text-decoration: none;
      border-radius: 20px;
+    
      background-color: white;
      
      display: block;
@@ -197,7 +200,7 @@
     width: 100vw;
     height: 212px;
     position: absolute;
-     background: url('fooddeleveryweb/foodlogo2.jpg');
+     background: url('fooddeleveryweb/waves-blue-gradient-background-stock-1280x720-1166.jpg');
      z-index: -100;
      background-size:100vw 48vh;
      opacity: .6;
@@ -257,7 +260,7 @@
     margin-bottom: 20px;
     height: 300px;
     width: 100%;
-    padding: 200px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
      align-items: center;
@@ -291,24 +294,6 @@
    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   footer{
     background-color: black;
     padding: 5px 2px ;
@@ -317,4 +302,3 @@
     margin-top: 40px;
    
   }
-   
