@@ -200,7 +200,7 @@
      background: url('fooddeleveryweb/foodlogo2.jpg');
      z-index: -100;
      background-size:100vw 48vh;
-     opacity: .7;
+     opacity: .6;
     
   }
   .client-item{ 
@@ -240,7 +240,7 @@
      background:url(fooddeleveryweb/contact-us-2993000_1920.jpg) no-repeat;
     z-index:-100;
     background-size:100vw 580px ;
-    opacity: .59;
+    opacity:1;
     
     
    
