@@ -1,4 +1,4 @@
- 
+  
  *{
   margin:0px;
   padding:0px;
@@ -8,6 +8,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+     opacity:.7;
+     position:sticky;
+     top:-30px;
 }
 #logo img{
     height:35px;
@@ -26,7 +29,18 @@
     margin-left:3vw;
     padding: 3px 2px;
     font-size: 1.5rem;
+    opacity:1;
+    z-index: 29;
 }
+#navbar ul{
+  margin-top: -15px;
+}
+
+
+
+
+
+
 
 #home{
     height:370px;
@@ -47,10 +61,10 @@
     width: 100vw;
     color:white;
     position: absolute;
-    background:url(fooddeleveryweb/foodbg4.jpg) no-repeat center center;
+    background:url(fooddeleveryweb/pexels.jpg) no-repeat center center;
     z-index:-9;
     background-size:100vw 100vh ;
-    opacity: .95;
+    opacity:1;
     top:0px;
     left:0px;
   
@@ -90,8 +104,8 @@
 .services-contianer .box{
     border: 2px rgb(94, 83, 61) solid;
     background-color: rgb(219, 211, 201);
-   height:450px;
-   width:340px;
+   height:400px;
+   width:310px;
    text-align: center; 
   
    margin: 25px 5px;
@@ -111,19 +125,20 @@
 }
  .services-section h1{
     text-align: center;
-    font-size:3.0rem; 
+    font-size:2.2rem; 
    
   }
   .services-section h2{
     text-align: center;
-    font-size:2.5rem; 
+    font-size:1.8rem; 
     padding:12px;
   }
   .services-section p{
     
-    font-size:1.5rem;
+    font-size:1.3rem;
     text-align: center;
     font-family:Arial ;
+    text-align: justify;
     /* margin: 10px; */
  
   }
@@ -132,13 +147,14 @@
    .client-item img{ 
  
     height: 100px;
-    width: 170px;
+    /* width: 170px; */
+    object-fit: contain;
    
   }
   #client-section h1{
     
     text-align: center;
-    font-size:3.8rem; 
+    font-size:2.2rem; 
      position: relative;
     
      top:70px;
@@ -164,6 +180,7 @@
     position: absolute;
    
      z-index: -100;
+     background-image: url(fooddeleveryweb/waves-blue-gradient-background-stock-480x800-1166.jpg);
      background-size:100vw 400px;
      opacity: .7;
      margin-top:50px;
@@ -188,7 +205,7 @@
    /*      contact section     */
    #contact{
     
-    height: 450px;
+    height: 440px;
     width: 100vw;
     color: white;
   
@@ -197,32 +214,32 @@
     }
   #contact::before{
     content:" ";
-    height:457px;
+    height:450px;
     width: 100vw;
     color:white;
     position: absolute; 
     background:url(fooddeleveryweb/contact-us-2993000_1920.jpg) no-repeat;
     z-index:-100;
     background-size:100vw 447px;
-    opacity: .59;
+    opacity:1;
   }
   #contact h1{
     color:black;
      text-align: center;
-    font-size:3.5rem; 
+    font-size:2.2rem; 
     line-height: 0px;
     padding:34px;
 
   }
   #contact-box{
     
-    margin-bottom: 20px;
+     
     height: 300px;
     width: 100%;
     
     display: flex;
     flex-direction: column;
-     align-items: center;
+     /* align-items: center; */
     justify-content: center;
     
   } 
@@ -236,12 +253,14 @@
     padding: 8px;
     width: 100%;
     margin-bottom:2px;
+    border: 2px black solid;
     border-radius: 10px;
 }
   #contact textarea{
     height:100px;
     width: 100%; 
     border-radius: 10px;
+    border: 2px black solid;
     padding: .5rem;
    }
    footer{
