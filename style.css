@@ -1,312 +1,312 @@
  *{
-    margin: 0px;
-    padding:0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
 }
 /*        Navbar         */
 #navbar{
-    display:flex;
-    position: relative;
-    position: sticky;
-    top:0px;
-    background-color:black;
-    /* opacity:0.1; */
-    
-    
-    
+  display:flex;
+  position: relative;
+  position: sticky;
+  top:0px;
+  background-color:black;
+  /* opacity:0.1; */
+  z-index: 10;
+  
+  
 }
-#navbar::before{
-    content:"";
-    height:100%;
-    width: 100%;
-    position: absolute;
-    /* background-color: black; */
-    z-index:10;
-    
-}
+ 
 
 
 /*        Navbar  Logo       */
- 
-#logo img{
-    height:45px;
-    width: 65px;
-    margin-top: 5px;
-    margin-left: 20px;
 
-    /* border: 2px rgb(197, 43, 43) solid; */
-    image-resolution: 100px 100px;
+#logo img{
+  height:45px;
+  width: 65px;
+  margin-top: 5px;
+  margin-left: 20px;
+
+  /* border: 2px rgb(197, 43, 43) solid; */
+  image-resolution: 100px 100px;
 
 } 
 /*        Navbar List      */
 #navbar ul{
-  margin-top: 10px;
-    display:flex;
-    
+margin-top: 10px;
+  display:flex;
+  
 }
 #navbar ul li{
-    list-style:none;
-    margin-top:6px ;
-    
+  list-style:none;
+  margin-top:6px ;
+  
 }
 #navbar ul li a{
-     color: white;
-     text-decoration: none;
-     display: block;
-     padding: 3px 22px;
-     font-size:1.3rem;
+  color:rgb(209, 21, 21);
+   text-decoration: none;
+   display: block;
+   padding: 3px 6px;
+   font-size:1.3rem;
+   margin-left: 20px;
+  
 }
-#navbar ul li a:hover{
-     color: rgb(14, 1, 1);
-     text-decoration: none;
-     border-radius: 20px;
-    
-     background-color: white;
-     
-     display: block;
-      
-}
+ #navbar ul li a:hover{
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+ }
 #home{
-    height: 490px;
-    width: 100vw;
-    color:white;
-    /* border: 2px red solid; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  height: 490px;
+  width: 100vw;
+  color:white;
+  /* border: 2px red solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: -9;
+ 
    
-     
 
 }
 #home::before{
-  
-    content:"";
-    height:509px;
-    width: 100vw;
-    color:white;
-    position: absolute;
-    background:url(fooddeleveryweb/foodbg4.jpg) no-repeat center center;
-    z-index:-9;
-    background-size:100vw 100vh ;
-    opacity: .95;
-    top:0px;
-    left:0px;
-  
+
+  content:"";
+  height:509px;
+  width: 100vw;
+  color:white;
+  position: absolute;
+  background:url(fooddeleveryweb/foodbg4.jpg) no-repeat center center;
+  z-index:-9;
+  background-size:100vw 100vh ;
+  opacity: .95;
+  top:0px;
+  left:0px;
+
 
 }
 
-      /* primary          */
+    /* primary          */
 #home p{
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
 
-  }
-  .primary{
-    font-size:2.8rem; 
-    padding:12px;
-  }
- .btn{
-  border:none;
+}
+.primary{
+  font-size:2.8rem; 
+  padding:12px;
+}
+.btn{
+  border:2px white solid;
   border-radius: 13px;
   padding: 4px 7px;
   font-size: 1.5rem ;
-  background-color: rgb(200, 39, 39);
-
+  background-color: rgb(137, 24, 24);
+  color: white;
   transition: .5s;
   cursor: pointer;
   margin: 17px;
 }
 .btn:hover{
-  background-color:rgb(125, 102, 102);
+  background-color:black;
+
 }
-     
+   
 /*         services           */
 .services-contianer{
-    /* border: 2px black solid; */
-    width: 100vw;
-    /* height: 290px; */
-    display: flex;
-     flex-wrap: wrap;
-      justify-content: space-evenly;
-     flex-direction: row;
-     margin-bottom: 20px;
-     /* flex-direction: column; */
+  /* border: 2px black solid; */
+  width: 100vw;
+  /* height: 290px; */
+  display: flex;
+   flex-wrap: wrap;
+    justify-content: space-evenly;
+   flex-direction: row;
+   margin-bottom: 20px;
+   /* flex-direction: column; */
 
 }
 .services-contianer .box{
-    border: 2px rgb(94, 83, 61) solid;
-    background-color: rgb(219, 211, 201);
-   height: 260px;
-   width: 27vw;
-   text-align: center; 
-  
-   margin: 0px 0px;
-   padding: 25px;
-   border-radius:28px ;
+  border: 2px rgb(94, 83, 61) solid;
+  background-color: rgb(219, 211, 201);
+ height: 260px;
+ width: 27vw;
+ text-align: center; 
+
+ margin: 0px 0px;
+ padding: 25px;
+ border-radius:28px ;
 }
 .services-contianer .box img{
-    display: block;
-     margin: auto;
-    
-    height:50px;
-    z-index: -100;
-    border: 2px white solid;
-    border-radius: 50px;
-   
-    
+  display: block;
+   margin: auto;
+  
+  height:50px;
+  z-index: -100;
+  border: 2px white solid;
+  border-radius: 50px;
+ 
+  
 }
- .services-section h1{
-    text-align: center;
-    font-size:2.8rem; 
-    padding:12px;
-  }
-  .services-section p{
-    
-    font-size: 1rem;
-    text-align: center;
-    font-family:Arial ;
-    /* margin: 10px; */
- 
-  }
-  .services-section{
-    box-decoration-break: black 2px solid;
-    
+.services-section h1{
+  text-align: center;
+  font-size:2.8rem; 
+  padding:12px;
+}
+.services-section p{
+  
+  font-size: 1rem;
+  text-align: center;
+  font-family:Arial ;
+  /* margin: 10px; */
 
-  }
-
-  /* client  Section */
- 
- 
-  .client-item img{ 
- 
-    height: 120px;
-    width: 150px;
-    z-index: -11;
-    /* margin: 100px; */
-  }
-  #client-section h1{
-    text-align: center;
-    font-size:2.8rem; 
-     
-  }
-  #client{
-    position: relative;
-    margin-top:0px;
-    width:  100vw;
-    height:160px;
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   
-  }
-
-  #client-section::before{
-    content:" ";
-    width: 100vw;
-    height: 212px;
-    position: absolute;
-     background: url('fooddeleveryweb/waves-blue-gradient-background-stock-1280x720-1166.jpg');
-     z-index: -100;
-     background-size:100vw 48vh;
-     opacity: .6;
-    
-  }
-  .client-item{ 
-    /* border: 2px green solid; */
-    height: 100px;
-    width: 150px;
-    text-align: center; 
-   
-    margin: 0px 20px;
-     flex-shrink: .5;
-     z-index: -100;
-    /* padding: 10; */
-     
-     
-  }
-
-
-
-
-
-
-  /*      contact section     */
-  #contact{
-    height: 394px;
-    width: 100vw;
-    color: white;
-    
-   
-    }
-  #contact::before{
-     /* border: 6px rgb(198, 52, 52) solid; */
-     margin-top: 0px;
-    content:" ";
-    height:450px;
-    width: 100vw;
-    color:white;
-     position: absolute; 
-     background:url(fooddeleveryweb/contact-us-2993000_1920.jpg) no-repeat;
-    z-index:-100;
-    background-size:100vw 580px ;
-    opacity:1;
-    
-    
-   
-  }
-  #contact h1{
-    color:black;
-     text-align: center;
-    font-size:2.8rem; 
+}
+.services-section{
+  box-decoration-break: black 2px solid;
   
 
-  }
-  #contact-box{
-    /* border: green 2px solid; */
-    margin-bottom: 20px;
-    height: 300px;
-    width: 100%;
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-     align-items: center;
-    justify-content: center;
-    
-     }
-  #contact form{
-    color: black;
-     font-size: 1.1rem;
-    width: 60%;
-    
-     
-     
+}
 
-  }
-  #contact input{
-    /* height: 20px; */
-    padding: 8px;
-    width: 100%;
-    margin-bottom: 5px;
-    border-radius: 10px;
-
-     
-
-  }
-  #contact textarea{
-    height: 100px;
-    width: 100%; 
-    border-radius: 10px;
-    padding: .5rem;
-   }
+/* client  Section */
 
 
-  footer{
-    background-color: black;
-    padding: 5px 2px ;
-    color: white;
-    text-align: center;
-    margin-top: 40px;
+.client-item img{ 
+
+  height: 120px;
+  width: 150px;
+  z-index: -11;
+  /* margin: 100px; */
+}
+#client-section h1{
+  text-align: center;
+  font-size:2.8rem; 
    
+}
+#client{
+  position: relative;
+  margin-top:0px;
+  width:  100vw;
+  height:160px;
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+#client-section::before{
+  content:" ";
+  width: 100vw;
+  height: 212px;
+  position: absolute;
+   background: url('fooddeleveryweb/waves-blue-gradient-background-stock-1280x720-1166.jpg');
+   z-index: -100;
+   background-size:100vw 48vh;
+   opacity: .6;
+  
+}
+.client-item{ 
+  /* border: 2px green solid; */
+  height: 100px;
+  width: 150px;
+  text-align: center; 
+ 
+  margin: 0px 20px;
+   flex-shrink: .5;
+   z-index: -100;
+  /* padding: 10; */
+   
+   
+}
+
+
+
+
+
+
+/*      contact section     */
+#contact{
+  height: 394px;
+  width: 100vw;
+  color: white;
+  
+ 
   }
+#contact::before{
+   /* border: 6px rgb(198, 52, 52) solid; */
+   margin-top: 0px;
+  content:" ";
+  height:450px;
+  width: 100vw;
+  color:white;
+   position: absolute; 
+   background:url(fooddeleveryweb/contact-us-2993000_1920.jpg) no-repeat;
+  z-index:-100;
+  background-size:100vw 580px ;
+  opacity:1;
+  
+  
+ 
+}
+#contact h1{
+  color:black;
+   text-align: center;
+  font-size:2.8rem; 
+
+
+}
+#contact-box{
+  /* border: green 2px solid; */
+  margin-bottom: 20px;
+  height: 300px;
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center;
+  
+   }
+#contact form{
+  color: black;
+   font-size: 1.1rem;
+  width: 60%;
+  
+   
+   
+
+}
+#contact input{
+  /* height: 20px; */
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 10px;
+
+}
+#contact input:hover{
+  background-color: rgb(238, 235, 235);
+  
+
+}
+#contact textarea{
+  height: 100px;
+  width: 100%; 
+  border-radius: 10px;
+  padding: .5rem;
+ }
+ #contact textarea:hover{
+  height: 100px;
+  width: 100%; 
+  border-radius: 10px;
+  padding: .5rem;
+  background-color: rgb(238, 235, 235);
+ }
+
+footer{
+  background-color: black;
+  padding: 5px 2px ;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+ 
+}
