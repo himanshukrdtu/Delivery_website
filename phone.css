@@ -81,10 +81,11 @@
     font-family: 'Lato', sans-serif;
 
   }
-  .btn{
-    border: 2px solid white;
-    border-radius: 10px;
-    padding: 14px 11px;
+   .btn{
+    border:none;
+    background-color: rgb(200, 39, 39);
+    border-radius: 13px;
+    padding: 6px 4px;
     font-size: 1.8rem ;
     cursor: pointer;
     margin-top:49px;
